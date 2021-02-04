@@ -11,16 +11,11 @@ public class ToPower {
 			newArray[i] = 1;
 			for(int j = 0; j < power; j++) {
 				newArray[i] *= i;
-				
-				System.out.println(newArray[i]);
 			}
 		}
 		
 		System.out.println(Arrays.toString(newArray));
 	}
 
-
-
-	
 }
 
